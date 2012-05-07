@@ -1,0 +1,16 @@
+Completado de url's
+-----------
+Author: Brian Stanley
+-----------
+Atención: El script a sido desarrollado y ejecutado en un sistema linux (debian 6.0 squeeze) no se garantiza su funcionamiento en un Windows.
+-----------
+Caso de uso.
+Por ejemplo si descargamos un codigo fuente html de un sitio cualquiera por ejemplo: wget google.com
+este código lo queremos levantar en nuestra computadora y seguramente no podremos ver imágenes, links, etc porque
+los tags href y src en su mayoría a los llamados a diferentes archivos los hará de manera local ejemplo:
+<a href="/img.jpg">
+Con este script podemos remplazar lo que esta antes de "/" con el link que indiquemos para que que los llamados se hagan correctamente
+Habiendose ejecutado correctamente el script quedaría: <a href="http://google.com/img.jpg">
+-----------
+Ejecución:
+perl code.pl
