@@ -1,4 +1,5 @@
 #!/usr/local/perl
+##Script Completador de href's y srcs.
 
 print "Ingresa la url al que deseas modificar los src y href> ";
 $url=<>;
@@ -33,7 +34,7 @@ open $datos, '<', $archivo or die "No se pudo abrir el archivo, Seguro existe?";
 close $datos;
 
 if($opcionSrc eq "si"){
-	if($html =~ s{src="}{src="$prefijo/}g){    # ¡zas!
+	if($html =~ s{src="}{src="$prefijo/}g){    # ï¿½zas!
 		print "Se remplazo los src";
 	}else{
 		print "Hubo un problema al remplazar los src";
@@ -41,7 +42,7 @@ if($opcionSrc eq "si"){
 }
 
 if($opcionHref eq "si"){
-	if($html =~ s{href="}{href="$prefijo/}g){    # ¡zas!
+	if($html =~ s{href="}{href="$prefijo/}g){    # ï¿½zas!
 		print "Se remplazo los href";
 	}else{
 		print "Hubo un problema al remplazar los href";
