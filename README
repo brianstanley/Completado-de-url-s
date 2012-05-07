@@ -1,6 +1,6 @@
 Completado de url's
 -----------
-Author: Brian Stanley
+Autor: Brian Stanley
 -----------
 Atención: El script a sido desarrollado y ejecutado en un sistema linux (debian 6.0 squeeze) no se garantiza su funcionamiento en un Windows.
 -----------
@@ -9,9 +9,28 @@ Por ejemplo si descargamos un código fuente html de un sitio cualquiera por eje
 este código lo queremos levantar en nuestra computadora y seguramente no podremos ver imágenes, links, etc porque
 los tags href y src en su mayoría cuando hace los llamados a diferentes archivos los hará de manera local ejemplo:
 <a href="/img.jpg">
-Con este script podemos remplazar lo que esta antes de "/" con el link que indiquemos para que que los llamados se hagan correctamente
+Con este script podemos añadir una url antes del "/" con el link que indiquemos para que que los llamados se hagan correctamente
 Habiendose ejecutado correctamente el script quedaría: <a href="http://google.com/img.jpg">
 -----------
 Ejecución:
+perl code.pl
+-----------
+
+
+Url completer
+-----------
+Author: Brian Stanley
+-----------
+Atention: This script was developed  and ejecuted in a linux system(debian 6.0). I dont give guarantee that this script works in Windows systems.
+-----------
+When use this script.
+For example if you download a site html source with the wget command (f.e: wget google.com)
+and you want to execute that html in your system, surely you will can't see correctly the images,links, ETC.
+The most href and src tags when call differents files will do in localhost way:
+<a href="/img.jpg">
+With this scipt we can allow to add an url before "/". The url is anything that we required.  
+When the script was executed correctly the sentence will be like this: <a href="http://google.com/img.jpg">
+-----------
+Execution:
 perl code.pl
 -----------
