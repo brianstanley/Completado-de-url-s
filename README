@@ -21,14 +21,14 @@ Url completer
 -----------
 Author: Brian Stanley
 -----------
-Atention: This script was developed  and ejecuted in a linux system(debian 6.0). I dont give guarantee that this script works in Windows systems.
+Atention: This script was developed  and executed in a linux system(debian 6.0). I dont give guarantee that this script works in Windows systems.
 -----------
 When use this script.
 For example if you download a site html source with the wget command (f.e: wget google.com)
 and you want to execute that html in your system, surely you will can't see correctly the images,links, ETC.
 The most href and src tags when call differents files will do in localhost way:
 <a href="/img.jpg">
-With this scipt we can allow to add an url before "/". The url is anything that we required.  
+With this scipt we can allow to add an url before "/". The url is anything that we require.  
 When the script was executed correctly the sentence will be like this: <a href="http://google.com/img.jpg">
 -----------
 Execution:
